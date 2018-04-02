@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+button {
+  background-color: #3DBB7C;
+  border: 1px solid white;
+  color: white;
+  padding: 13px;
+}
+
+section {
+  width: auto;
+}
+
+p {
+  color: white;
+  text-align: left;
+  font-weight: 200;
+  padding-left: 12px;
+}
+
+h1,
+h3 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+main {
+  position: absolute;
+}
+
+.download {
+  height: 22px;
+  width: 22px;
+  margin: 0;
+  margin-bottom: -6px;
+}
+
+.resume {
+  margin-right: 8%; 
+}
+
+.i-sign {
+  height: 22px;
+  width: 22px;
+  margin: 0;
+  margin-bottom: -6px;
+}
+
+.intro {
+  margin-top: 10%;
+  text-align: left;
+  padding-left: 12px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+article {
+  height: 217px;
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  height: 22%;
+  width: 25%;
+  margin-top: 37%;
+}
+
+aside {
+  text-align: right;
+}
+
+.top-quad {
+  width: 40%;
+  background-color: #3DBB7C;
+  margin: 0;
+}
+
+.top-right-quad {
+  background-color: #FD9D27;
+  width: 20%;
+  margin: 0;
+
+}
+
+.flex-grid .col {
+  flex: 1;
+}
+
+.left-row-two {
+  width: 20%;
+  margin: 0;
+  background-color: #278CC2;
+  font-weight: lighter;
+}
+
+.mid-row-two {
+  background-color: #EF5B4E;
+  width: 20%;
+}
+
+.right-row-two {
+  background-color: #3DBB7C;
+  width: 20%;
+}
+
+.left-row-three {
+  background-color: #F66932;
+  width: 20%;
+}
+
+.mid-row-three {
+  background-color: #278CC2;
+  width: 20%;
+}
+
+.right-row-three {
+  background-color: #F66932;
+  width: 20%;
+}
+
+.profile-pic {
+  margin: 0;
+  position: absolute;
+  left: 60%;
+  width: 40%;
+  height: 651px;
+}
