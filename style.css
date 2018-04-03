@@ -66,6 +66,7 @@ article {
   margin: 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  width: 20%;
 }
 
 img {
@@ -86,7 +87,6 @@ aside {
 
 .top-right-quad {
   background-color: #FD9D27;
-  width: 20%;
   margin: 0;
 
 }
@@ -96,7 +96,6 @@ aside {
 }
 
 .left-row-two {
-  width: 20%;
   margin: 0;
   background-color: #278CC2;
   font-weight: lighter;
@@ -104,33 +103,79 @@ aside {
 
 .mid-row-two {
   background-color: #EF5B4E;
-  width: 20%;
 }
 
 .right-row-two {
   background-color: #3DBB7C;
-  width: 20%;
 }
 
 .left-row-three {
   background-color: #F66932;
-  width: 20%;
 }
 
 .mid-row-three {
   background-color: #278CC2;
-  width: 20%;
 }
 
 .right-row-three {
   background-color: #F66932;
-  width: 20%;
 }
 
 .profile-pic {
   margin: 0;
   position: absolute;
+  z-index: -1;
   left: 60%;
   width: 40%;
   height: 651px;
+}
+
+.left,
+.right {
+  border-radius: 56%;
+  position: absolute;
+  font-size: 20px;
+  background-color: #A7A7A7;
+  padding: 12px;
+}
+
+.right {
+  left: 95%;
+  top: 55%;
+}
+
+.left {
+  left: 61%;
+  top: 55%;
+}
+
+
+@media only screen and (max-width: 812px) {
+  main {
+    position: static;
+  }
+
+  article {
+    width: 33.3%;
+  }
+
+  .left {
+    left: 1%;
+    top: 187%;
+  }
+
+  .right {
+    top: 187%;
+    left: 90%;
+  }
+
+  .top-quad {
+    width: 66.6%;
+  }
+
+  .profile-pic {
+    width: 100%;
+    position: static;
+    text-align: left;
+  }
 }
